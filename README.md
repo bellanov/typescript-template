@@ -14,6 +14,9 @@ npx tsc
 
 # Launch in "watch" mode
 npx tsc -w
+
+# Lint
+npx eslint index.ts
 ```
 
 3. Create a PR to deliver the changes.

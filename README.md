@@ -1,8 +1,8 @@
-# shell-template
+# typescript-template
 
-Template for general Shell script development.
+Template for general TypeScript development.
 
-The template contains examples of best practices and standards derived from the [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html).
+The template contains examples of best practices and standards derived from the [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html).
 
 ## Scripts
 

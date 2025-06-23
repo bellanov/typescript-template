@@ -18,7 +18,7 @@
     "example": "examples"
   },
   "scripts": {
-    "compile": "tsc src/*.ts --outDir dist --module commonjs --target es6",
+    "compile": "tsc examples/*.ts --outDir dist --module commonjs --target es6",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

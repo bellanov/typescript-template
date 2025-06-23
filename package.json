@@ -1,0 +1,24 @@
+{
+  "name": "typescript-template",
+  "version": "0.1.0",
+  "description": "Template for general TypeScript development.",
+  "homepage": "https://github.com/bellanov/typescript-template#readme",
+  "bugs": {
+    "url": "https://github.com/bellanov/typescript-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellanov/typescript-template.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "compile": "tsc src/*.ts --outDir dist --module commonjs --target es6",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -8,14 +8,14 @@ The template contains examples of best practices and standards derived from the 
 
 Summary of the available scripts and their usage. Details available within each script.
 
-| Script      | Description |
-| ----------- | ----------- |
+| Script      | Description        |
+| ----------- | ------------------ |
 | **lint.sh** | Lint the codebase. |
 
 ## Examples
 
 Summary of each example.
 
-| Example      | Description |
-| ----------- | ----------- |
+| Example     | Description        |
+| ----------- | ------------------ |
 | **lint.sh** | Lint the codebase. |

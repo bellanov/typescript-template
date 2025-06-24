@@ -6,11 +6,13 @@ The template contains examples of best practices and standards derived from the 
 
 ## Project Structure
 
-Summary of the project's structure.
+Summary of the project *directories*.
 
 | Directory      | Description        |
 | ----------- | ------------------ |
-| **lint.sh** | Lint the codebase. |
+| **src** | Lint the codebase. |
+
+Summary of the project *files*.
 
 | File      | Description        |
 | ----------- | ------------------ |

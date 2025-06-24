@@ -4,18 +4,22 @@ Template for general TypeScript development.
 
 The template contains examples of best practices and standards derived from the [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html).
 
-## Scripts
+## Project Structure
 
-Summary of the available scripts and their usage. Details available within each script.
+Summary of the project's structure.
 
-| Script      | Description        |
+| Directory      | Description        |
 | ----------- | ------------------ |
 | **lint.sh** | Lint the codebase. |
 
-## Examples
+| File      | Description        |
+| ----------- | ------------------ |
+| **lint.sh** | Lint the codebase. |
 
-Summary of each example.
+## Tasks
 
-| Example     | Description        |
+Summary of the available *NPM Tasks* and their usage. Details available within each script.
+
+| Task      | Description        |
 | ----------- | ------------------ |
 | **lint.sh** | Lint the codebase. |

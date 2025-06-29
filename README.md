@@ -11,6 +11,7 @@ Summary of the project _directories_.
 | Directory  | Description        |
 | ---------- | ------------------ |
 | **_src/_** | Lint the codebase. |
+| **_public/_** | Lint the codebase. |
 
 Summary of the project _files_.
 
@@ -24,7 +25,12 @@ Summary of the available _NPM Tasks_ and their usage. Details available within e
 
 | Task        | Description        |
 | ----------- | ------------------ |
-| **lint.sh** | Lint the codebase. |
+| **format** | *Lint* / *format* the codebase. |
+| **build** | Execute a *production* build. |
+| **check-types** | Compile *TypeScript* into *JavaScript*. |
+| **dev** | Execute a *development* build. |
+| **start** | Start the development server. |
+| **test** | Execute *unit tests*. |
 
 ## Usage
 

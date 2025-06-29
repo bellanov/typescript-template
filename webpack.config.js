@@ -4,7 +4,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 module.exports = {
   entry: {
     main: "./src/index.ts",
-    simple: "./src/simple_types.ts",
+    types: "./src/simple_types.ts",
     style: "./src/style.css",
   },
   resolve: {

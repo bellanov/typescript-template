@@ -8,10 +8,10 @@ The template contains examples of best practices and standards derived from the 
 
 Summary of the project _directories_.
 
-| Directory  | Description        |
-| ---------- | ------------------ |
-| **_src/_** | Contains source code, written in *TypeScript*. |
-| **_public/_** | Contains compiled *TypeScript*, written in *JavaScript*. |
+| Directory     | Description                                              |
+| ------------- | -------------------------------------------------------- |
+| **_src/_**    | Contains source code, written in _TypeScript_.           |
+| **_public/_** | Contains compiled _TypeScript_, written in _JavaScript_. |
 
 Summary of the project _files_.
 
@@ -23,14 +23,14 @@ Summary of the project _files_.
 
 Summary of the available _NPM Tasks_ and their usage. Details available within each script.
 
-| Task        | Description        |
-| ----------- | ------------------ |
-| **format** | *Lint* / *format* the codebase. |
-| **build** | Execute a *production* build. |
-| **check-types** | Compile *TypeScript* into *JavaScript*. |
-| **dev** | Execute a *development* build. |
-| **start** | Start the development server. |
-| **test** | Execute *unit tests*. |
+| Task            | Description                             |
+| --------------- | --------------------------------------- |
+| **format**      | _Lint_ / _format_ the codebase.         |
+| **build**       | Execute a _production_ build.           |
+| **check-types** | Compile _TypeScript_ into _JavaScript_. |
+| **dev**         | Execute a _development_ build.          |
+| **start**       | Start the development server.           |
+| **test**        | Execute _unit tests_.                   |
 
 ## Usage
 
@@ -42,7 +42,7 @@ Summary of how to add onto the project.
 touch src/new_script.ts
 ```
 
-2. Add new **entry** for the script to the *webpack configuration (webpack.config.js)* so its contents are compiled as part of our **bundle**.
+2. Add new **entry** for the script to the _webpack configuration (webpack.config.js)_ so its contents are compiled as part of our **bundle**.
 
 ```sh
 entry: {
@@ -51,11 +51,9 @@ entry: {
 }
 ```
 
-3. Import compiled *JavaScript* file into the **index.html** file.
+3. Import compiled _JavaScript_ file into the **index.html** file.
 
 ```javascript
 <script src="main.js"></script>
 <script src="new_script.js"></script>
 ```
-
-

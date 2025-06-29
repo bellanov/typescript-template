@@ -10,8 +10,8 @@ Summary of the project _directories_.
 
 | Directory  | Description        |
 | ---------- | ------------------ |
-| **_src/_** | Lint the codebase. |
-| **_public/_** | Lint the codebase. |
+| **_src/_** | Contains source code, written in *TypeScript*. |
+| **_public/_** | Contains compiled *TypeScript*, written in *JavaScript*. |
 
 Summary of the project _files_.
 
@@ -42,7 +42,7 @@ Summary of how to add onto the project.
 touch src/new_script.ts
 ```
 
-2. Add new script to the webpack configuration (webpack.config)
+2. Add new **entry** for the script to the *webpack configuration (webpack.config.js)* so its contents are compiled as part of our **bundle**.
 
 ```sh
 entry: {
@@ -51,15 +51,11 @@ entry: {
 }
 ```
 
-3. Import new script into the index.html file.
+3. Import compiled *JavaScript* file into the **index.html** file.
 
-```sh
-entry: {
-  "main": "./src/index.ts",
-  "new_script": "./src/new_script.ts",
-}
-```
-
+```javascript
 <script src="main.js"></script>
+<script src="new_script.js"></script>
+```
 
-    <script src="simple.js"></script>
+

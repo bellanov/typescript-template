@@ -9,9 +9,11 @@ namespace Index {
   export const greeting: string = "Hello from namespace!";
 
   export function sayHello(name: string): string {
-    return `${greeting} Hi, ${name}!`;
+    return `${greeting} Hi, I'm ${name}!`;
   }
 }
 
 // Usage
 console.log(Index.sayHello("TypeScript"));
+document.getElementById("greeting")!.textContent = Index.greeting;
+document.getElementById("hello")!.textContent = Index.sayHello("TypeScript");

@@ -13,12 +13,6 @@ Summary of the project _directories_.
 | **_src/_**    | Contains source code, written in _TypeScript_.           |
 | **_public/_** | Contains compiled _TypeScript_, written in _JavaScript_. |
 
-Summary of the project _files_.
-
-| File        | Description        |
-| ----------- | ------------------ |
-| **lint.sh** | Lint the codebase. |
-
 ## Tasks
 
 Summary of the available _NPM Tasks_ and their usage. Details available within each script.

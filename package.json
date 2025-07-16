@@ -18,9 +18,10 @@
     "example": "examples"
   },
   "scripts": {
+    "clean": "rm -rf dist",
     "format": "npx prettier . --write",
-    "build": "webpack --mode production",
-    "dev": "webpack --mode development",
+    "build": "npm run clean; webpack --mode production",
+    "dev": "npm run clean; webpack --mode development",
     "start": "webpack serve --mode development --open",
     "check-types": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

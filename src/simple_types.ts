@@ -1,5 +1,5 @@
 /**
- * @fileoverview Introduction to TypeScript. This example demonstrates basic 
+ * @fileoverview Introduction to TypeScript. This example demonstrates basic
  * TypeScript features such as types, interfaces, and functions.
  */
 
@@ -7,7 +7,7 @@
 const myString: string = "Hello, TypeScript!";
 
 // Initial variable using `let`
-let myNumber: number = 42;
+let myNumber: number = 43;
 
 // Displaying the variables
 console.log(myString);

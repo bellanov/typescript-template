@@ -1,5 +1,5 @@
 /**
- * @fileoverview Introduction to TypeScript. This example demonstrates basic 
+ * @fileoverview Introduction to TypeScript. This example demonstrates basic
  * TypeScript features such as types, interfaces, and functions.
  */
 

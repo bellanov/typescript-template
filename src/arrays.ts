@@ -28,3 +28,6 @@ list1.unshift(0);
 // Shift a number from the beginning of a list
 // Removes the first element from an array and returns that element.
 list1.shift();
+
+document.getElementById("array-list-1")!.textContent = list1.toString();
+document.getElementById("array-list-2")!.textContent = list2.toString();

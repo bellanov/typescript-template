@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 // Simple Types
 // This example demonstrates basic TypeScript features such as types, interfaces, and functions.
+=======
+/**
+ * @fileoverview Introduction to TypeScript. This example demonstrates basic 
+ * TypeScript features such as types, interfaces, and functions.
+ */
+>>>>>>> main
 
 // Initial variable using `const`
 const myString: string = "Hello, TypeScript!";

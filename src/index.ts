@@ -3,8 +3,10 @@
  * TypeScript features such as types, interfaces, and functions.
  */
 
-function hello(name: string) {
-  console.log(`Hello, ${name}!`);
+namespace Index {
+  export function hello(name: string) {
+    console.log(`Hello, ${name}!`);
+  }
 }
 
-hello("World");
+Index.hello("World");

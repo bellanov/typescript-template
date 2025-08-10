@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     main: "./src/index.ts",
     simple_types: "./src/simple_types.ts",
+    classes: "./src/classes.ts",
     style: "./src/style.css",
   },
   resolve: {

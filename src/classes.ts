@@ -1,28 +1,31 @@
 /**
- * @fileoverview Classes. This example demonstrates basic
- * TypeScript features such as classes, inheritance, and interfaces.
+ * @fileoverview Classes.
+ * Example class implementation, with type declarations to the function 
+ * properties defined. It resembles plain old JavaScript otherwise.
  */
 
 namespace Classes {
-  // Initial variable using `const`
-  export const myString: string = "Hello, TypeScript!";
 
-  // Initial variable using `let`
-  export let myNumber: number = 43;
+  export class Vehicle {
+    wheels: number;
+    power: number;
+    speed: number = 0;
 
-  // An array of numbers - Method 1
-  // Angle brackets - familiar to C# and Java developers
-  export let list1: Array<number> = [1, 2, 3, 4, 5];
+    constructor(wheels: number, power: number) {
+      this.wheels = wheels;
+      this.power = power;
+    }
 
-  // An array of numbers - Method 2
-  // Square brackets - more common in TypeScript and familiar to developers.
-  export let list2: number[] = [6, 7, 8, 9, 10];
+    accelerate(time: number): void {
+        this.speed = this.speed + 0.5 * this.power * time;
+    }
+  }
 }
 
-// Displaying the variables
-console.log("Number: " + Classes.myNumber);
-console.log("String: " + Classes.myString);
+// Import class exported from namespace
+const myVehicle: Classes.Vehicle = new Classes.Vehicle(4, 150);
+myVehicle.accelerate(10);
+console.log(`My vehicle's speed is ${myVehicle.speed} km/h.`);
 
-// Example of using TypeScript in the browser
-document.getElementById("classes-number")!.textContent = Classes.myNumber.toString();
-document.getElementById("classes-string")!.textContent = Classes.myString;
+// Replace content within HTML
+document.getElementById("vehicle-speed")!.textContent = `${myVehicle.speed} km/h.`;

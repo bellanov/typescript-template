@@ -1,6 +1,6 @@
 /**
  * @fileoverview Classes.
- * Example class implementation, with type declarations to the function 
+ * Example class implementation, with type declarations to the function
  * properties defined. It resembles plain old JavaScript otherwise.
  */
 
@@ -11,7 +11,6 @@
  */
 
 namespace Classes {
-
   export class Vehicle {
     wheels: number;
     power: number;
@@ -24,7 +23,7 @@ namespace Classes {
 
     // Specify return type
     accelerate(time: number): void {
-        this.speed = this.speed + 0.5 * this.power * time;
+      this.speed = this.speed + 0.5 * this.power * time;
     }
   }
 }
@@ -47,12 +46,15 @@ class Car extends Classes.Vehicle {
 }
 
 // Replace content within HTML
-document.getElementById("vehicle-speed")!.textContent = `${myVehicle.speed} km/h.`;
+document.getElementById("vehicle-speed")!.textContent =
+  `${myVehicle.speed} km/h.`;
 
 const myCar: Car = new Car(4, 150, true);
 console.log(`My car's GPS is ${myCar.gps ? "enabled" : "disabled"}.`);
 
 myCar.accelerate(10);
 
-document.getElementById("child-vehicle-speed")!.textContent = `${myCar.speed} km/h.`;
-document.getElementById("child-gps")!.textContent = `${myCar.gps ? "enabled" : "disabled"}`;
+document.getElementById("child-vehicle-speed")!.textContent =
+  `${myCar.speed} km/h.`;
+document.getElementById("child-gps")!.textContent =
+  `${myCar.gps ? "enabled" : "disabled"}`;

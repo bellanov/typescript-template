@@ -36,5 +36,23 @@ myVehicle.accelerate(10);
 // Log to console
 console.log(`My vehicle's speed is ${myVehicle.speed} km/h.`);
 
+class Car extends Classes.Vehicle {
+  gps: boolean;
+
+  constructor(wheels: number, power: number, gps: boolean) {
+    // Be sure to call the parent's constructor
+    super(wheels, power);
+    this.gps = gps;
+  }
+}
+
 // Replace content within HTML
 document.getElementById("vehicle-speed")!.textContent = `${myVehicle.speed} km/h.`;
+
+const myCar: Car = new Car(4, 150, true);
+console.log(`My car's GPS is ${myCar.gps ? "enabled" : "disabled"}.`);
+
+myCar.accelerate(10);
+
+document.getElementById("child-vehicle-speed")!.textContent = `${myCar.speed} km/h.`;
+document.getElementById("child-gps")!.textContent = `${myCar.gps ? "enabled" : "disabled"}`;

@@ -4,6 +4,12 @@
  * properties defined. It resembles plain old JavaScript otherwise.
  */
 
+/**
+ * IMPORTANT
+ * Class declarations aren't hoisted like usual variable declarations, so they
+ * must be declared at the top of the file. Hoisting them manually essentially.
+ */
+
 namespace Classes {
 
   export class Vehicle {
@@ -16,6 +22,7 @@ namespace Classes {
       this.power = power;
     }
 
+    // Specify return type
     accelerate(time: number): void {
         this.speed = this.speed + 0.5 * this.power * time;
     }
@@ -25,6 +32,8 @@ namespace Classes {
 // Import class exported from namespace
 const myVehicle: Classes.Vehicle = new Classes.Vehicle(4, 150);
 myVehicle.accelerate(10);
+
+// Log to console
 console.log(`My vehicle's speed is ${myVehicle.speed} km/h.`);
 
 // Replace content within HTML

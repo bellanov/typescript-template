@@ -40,6 +40,7 @@ class Car extends Classes.Vehicle {
 
   constructor(wheels: number, power: number, gps: boolean) {
     // Be sure to call the parent's constructor
+    // Default values are undefined until you call the superclass constructor.
     super(wheels, power);
     this.gps = gps;
   }

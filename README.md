@@ -33,7 +33,7 @@ Summary of how to add onto the project.
 1. Create a new TypeScript file.
 
 ```sh
-touch src/new_script.ts
+touch src/new-script.ts
 ```
 
 2. Add new **entry** for the script to the _webpack configuration (webpack.config.js)_ so its contents are compiled as part of our **bundle**.
@@ -41,7 +41,7 @@ touch src/new_script.ts
 ```sh
 entry: {
   "main": "./src/index.ts",
-  "new_script": "./src/new_script.ts",
+  "new-script": "./src/new-script.ts",
 }
 ```
 
@@ -49,5 +49,5 @@ entry: {
 
 ```javascript
 <script src="main.js"></script>
-<script src="new_script.js"></script>
+<script src="new-script.js"></script>
 ```

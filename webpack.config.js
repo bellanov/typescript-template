@@ -3,10 +3,11 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
-    main: "./src/index.ts",
-    simple_types: "./src/simple_types.ts",
-    classes: "./src/classes.ts",
-    style: "./src/style.css",
+    "main": "./src/index.ts",
+    "arrays": "./src/arrays.ts",
+    "classes": "./src/classes.ts",
+    "simple-types": "./src/simple-types.ts",
+    "style": "./src/style.css",
   },
   resolve: {
     extensions: [".ts", ".js"],
